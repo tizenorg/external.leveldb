@@ -1,6 +1,6 @@
 Name:   	leveldb
 Summary:    leveldb library
-Version: 	1.1_13
+Version: 	1.1_17
 Release:    1
 Group:      libs
 License:    Google
@@ -8,6 +8,7 @@ Source0:    %{name}-%{version}.tar.gz
 
 %description
 Description: leveldb
+
 
 %package -n libleveldb
 Summary:   leveldb library.

@@ -1,3 +1,74 @@
+leveldb (1.1_13) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1_12
+  * Add -g option for stripping leveldb package and add -fvisibility-hidden option in Makefile
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Thu, 07 Nov 11:09:00 2013 +0900
+
+leveldb (1.1_11) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1_11
+  * revert change spec file
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Fri, 09 Nov 14:00:00 2012 +0900
+
+leveldb (1.1_10) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1_10
+  * remove include header file in spec file
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Fri, 09 Nov 14:00:00 2012 +0900
+
+leveldb (1.1_9) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1_9
+  * update Tab
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Mon, 22 Oct 16:37:00 2012 +0900
+
+leveldb (1.1_8) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1_8
+  * add path of licence file
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Tue, 16 Oct 16:37:00 2012 +0900
+
+leveldb (1.1_7) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1_7
+  * change spec file
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Mon, 8 Oct 08:01:00 2012 +0900
+
+leveldb (1.1_7) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1_6
+  * add smac manifest file
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Mon, 8 Oct 08:01:00 2012 +0900
+
+leveldb (1.1-5) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1-4
+  * add smac manifest file
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Thu, 4 Oct 08:01:00 2012 +0900
+
+leveldb (1.1-4) unstable; urgency=low
+
+  * Git: external/leveldb
+  * Tag: leveldb_1.1-4
+  * add tizen_build tag
+
+ -- Jiyeon Kim <jiyeon0402.kim@samsung.com>  Tue, 14 Aug 14:29:00 2012 +0900
 leveldb (1.1-3) unstable; urgency=low
 
   * Git: slp/pkgs/l/leveldb

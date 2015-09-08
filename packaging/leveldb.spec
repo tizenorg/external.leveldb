@@ -1,6 +1,6 @@
 Name:   	leveldb
 Summary:    leveldb library
-Version: 	1.1
+Version: 	1.1_17
 Release:    1
 Group:      libs
 License:    Google
@@ -28,9 +28,14 @@ make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/license
+cp LICENSE %{buildroot}/usr/share/license/libleveldb
+
 %make_install
 
 %files -n libleveldb
+%manifest leveldb.manifest
+/usr/share/license/libleveldb
 %defattr(-,root,root,-)
 %{_libdir}/libleveldb.so
 %{_libdir}/libleveldb.so.0

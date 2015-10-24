@@ -3,7 +3,7 @@ Summary:    leveldb library
 Version: 	1.1_17
 Release:    1
 Group:      libs
-License:    Google
+License:    BSD-2.0
 Source0:    %{name}-%{version}.tar.gz
 
 %description
